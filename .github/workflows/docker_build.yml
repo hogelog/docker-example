@@ -17,7 +17,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ${{ steps.login-ecr.outputs.registry }}/hogelog/echo
+          images: ghcr.io/hogelog/echo
           tags: |
             type=sha,prefix=
             type=edge
