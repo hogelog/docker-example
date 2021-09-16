@@ -1,4 +1,4 @@
-FROM busybox
+FROM ghcr.io/hogelog/busybox
 
 ENTRYPOINT ["echo"]
 
